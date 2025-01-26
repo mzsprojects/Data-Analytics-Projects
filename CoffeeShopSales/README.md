@@ -8,7 +8,7 @@ Insights are provided based on the following key metrics:
 - Performance by Weekday 
 - Product Level Performance
 
-The Excel file containing the dashboard can be downloaded from here.
+The Excel file containing the dashboard can be downloaded from <a href="https://github.com/mzsprojects/DataAnalyticsProjects/blob/main/CoffeeShopSales/Sales%20Analysis%20for%20Coffee%20Shop.xlsx">here</a>.
 
 <h1>Data Structure & Initial Checks</h1>
 
