@@ -36,3 +36,7 @@ Coffee, Tea, Bakery items, Drinking Chocolate, and Syrup Flavours were the top p
 
 Brewed Chai Tea, Gourmet Brewed Coffee, and Barista Espresso were the most sold products.
 These products along with Hot Chocolate generated the highest revenue.
+
+<!---
+<p><b>Data Source:</b> <a href="https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=Coffee">Maven Analytics Data Playground - Coffee Shop Sales</a></p>
+--->
