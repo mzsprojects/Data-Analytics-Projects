@@ -37,7 +37,9 @@ There are 768 low-value customers with nearly half of them already been lost. Th
 
 On an average, the VIP customers have RFM score of 3.40, 3.57, 3.55 respectively for each metric.
 The Potentially Loyal customers have the RFM score of 2.43, 2.28, 2.29 respectively. 
-<br>
+
+![image](https://github.com/user-attachments/assets/3663fc4c-a678-4c71-b222-bcda9034e018)
+
 Customers having RFM Score below 2 for each or any of the metric require attention.
 
 <!---
