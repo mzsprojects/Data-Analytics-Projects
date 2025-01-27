@@ -22,7 +22,8 @@ Before performing the analysis, the dataset was checked for the integrity and NU
 
 The CustomerID column contained 1,35,080 NULL values. Since there was no data available to identify these values, these records were dropped.
 
-The data is very old. Hence, the date after the last order is considered as reference.
+The data is spread from December 2010 to December 2011.
+Since it is very old, the date after the last order is considered as reference.
 
 <h1>Observations</h1>
 
@@ -33,6 +34,11 @@ All the high-value customers are VIP/Loyal. Among the mid-value customers, 72% a
 There are 768 low-value customers with nearly half of them already been lost. The remaining customers in this segment will also churn if no intervention occurs. It is essential to engage these customers with special offers and address any concerns or issues they may be facing to ensure that they don't leave.
 
 ![image](https://github.com/user-attachments/assets/c0e3e1f1-e43b-42dd-b6f4-7dd2c8c41dc8)
+
+On an average, the VIP customers have RFM score of 3.40, 3.57, 3.55 respectively for each metric.
+The Potentially Loyal customers have the RFM score of 2.43, 2.28, 2.29 respectively. 
+<br>
+Customers having RFM Score below 2 for each or any of the metric require attention.
 
 <!---
 <p><b>Data Source:</b> <a href="https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset">Kaggle - Online Retail Datset (Version 2)</a></p>
