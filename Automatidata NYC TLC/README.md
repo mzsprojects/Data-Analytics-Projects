@@ -1,6 +1,7 @@
 <h1>Project Background</h1>
 
 Change Description
+<a href="https://nbviewer.org/github/mzsprojects/DataAnalyticsProjects/blob/main/Automatidata%20NYC%20TLC/Jupyter%20Notebooks/Linear%20Regression.ipynb">Regression Model Notebook</a>
 
 This project thoroughly analyzes the sales data of a coffee shop that operates at three different locations.
 The aim of the project is to evaluate regional performance and identify market opportunities.
