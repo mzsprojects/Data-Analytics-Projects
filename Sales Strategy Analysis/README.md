@@ -1,5 +1,5 @@
 # Project Background
-This project was completed as part of the **DataCamp Data Analyst Career Certificate Exam**. Check out the certificate [here](https://www.datacamp.com/certificate/DA0021940315674?trk=public_profile_see-credential). It involves analyzing sales performance data for an office supply company to determine the most effective sales strategy for new product launches. 
+This project was completed as part of my **DataCamp Data Analyst Career Certificate Exam**. Check out the certificate [here](https://www.datacamp.com/certificate/DA0021940315674?trk=public_profile_see-credential). It involves analyzing sales performance data for an office supply company to determine the most effective sales strategy for new product launches. 
 
 ## Overview  
 **Business Context:** Pens & Printers, founded in 1984, needed to optimize their sales approach for a new product line launch. The company tested three different sales methods over 6 weeks to determine the most effective strategy for future launches.  
@@ -16,13 +16,13 @@ This project was completed as part of the **DataCamp Data Analyst Career Certifi
 # Key Findings
 - **Email** was used to target 50% customers and generated $724k in total revenue. It dominates early revenue generation but declines over time (84% → 14% total weekly share).
 - **Email+Call** was used to target 17% customers and generated $473k in total revenue. It shows strongest growth trajectory (6x revenue increase by week 6, reaching a 70% share). It also has highest revenue per-sale with median at $185.
-- **Call** targeted 33% customers but generated least revenue ($233k) despite high resource investment.
+- **Call** targeted 33% customers but generated least revenue ($236k) despite high resource investment.
 - Performance patterns are consistent across all customer segments and geographic regions. 
 
 # Analysis Components
 ### 1. Data Validation & Cleaning
 - Standardized 5 inconsistent `sales_method` categories to 3 clean categories.
-- Handled 1,074 missing `revenue` values using median corresponding sales method imputation.
+- Handled 1,074 missing `revenue` values using median based on corresponding sales method.
 - Corrected 2 invalid customer tenure (`years_as_customer`) entries.
 
 ### 2. Exploratory Analysis
@@ -32,21 +32,21 @@ This project was completed as part of the **DataCamp Data Analyst Career Certifi
 
 ### 3. Business Metrics
 - KPI: Weekly revenue share by sales method (%).
-- Secondary Metric: Customer acquisition rate by method. 
+- Secondary Metric: Weekly customer acquisition rate by sales method. 
 
 # Recommendations
 **Hybrid Strategy Implementation**
 - **Weeks 1-2:** Lead with Email-only approach for rapid market penetration.
-- **After week 3:** Shift focus to Email+Call for sustained growth and higher transaction values.
+- **After week 3:** Shift focus to Email+Call for sustained growth and high-value transactions.
 
 **Long-term Considerations**
-- Monitor Email+Call performance sustainability beyond week 6.
-- Implement weekly dashboard tracking with performance thresholds. 
+- Monitor Email+Call performance beyond week 6 to confirm sustainability.
+- Implement weekly dashboard tracking recommended metrics with performance thresholds. 
 
 # Technical Skills Demonstrated
 - **Data Cleaning:** Handled missing values, standardized categories, corrected data inconsistencies.
 - **Exploratory Data Analysis:** Multi-dimensional analysis across time, geography, and customer segments.
-- **Data Visualization:** Created comprehensive charts and graphs for business insights.
+- **Data Visualization:** Created detailed charts and graphs for business insights.
 - **Business Metrics:** Defined KPIs and performance monitoring frameworks.
 - **Statistical Analysis:** Revenue distribution analysis and trend identification.
 - **Business Communication:** Delivered findings through executive report and presentation.
